@@ -1,0 +1,30 @@
+/*
+  ==============================================================================
+
+    tests.txt
+    Created: 29 Oct 2020 2:23:16pm
+    Author:  MT
+
+    List of all tests for modules and if they passed
+
+  ==============================================================================
+*/
+
+Custom Midi Keyboard
+1. [c] Disable the same key(s) per octave
+2. White key layout, 12 keys per octave (default)
+3. White key layout, Any keys per octave
+4. [c] Total 128 notes (default)
+5. [c] Total Any notes
+6. Piano layout
+7. Custom layout
+
+Custom Midi Keyboard - labels
+1. Labels follow Piano layout
+2. Labels follow a custom layout
+3. Labels skip disabled keys (written on the next value)
+
+Systems - 
+// Not exactly sure how to properly incorporate the system map
+// Could test both the system map and equal temperament, but that would be messy
+// when somwething is set in the layout, it should 
